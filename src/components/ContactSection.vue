@@ -1,13 +1,6 @@
 <template>
   <section class="container py-16 md:py-20" id="contact">
     <SectionHeader title="Contact Oris Express" subTitle="Have any Questions?" />
-    <div class="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
-      <!-- <p class="font-body text-grey-10">
-        Lorem ipsum dolor sit amet consectetur adipiscing elit hendrerit condimentum turpis nisl
-        sem, viverra habitasse urna ante lobortis fermentum accumsan. Viverra habitasse urna ante
-        lobortis fermentum accumsan.
-      </p> -->
-    </div>
     <form class="mx-auto w-full pt-10 sm:w-3/4">
       <div class="flex flex-col md:flex-row gap-4">
         <Input placeholder="Name" type="text" id="name" />
