@@ -35,7 +35,7 @@
 
         <img
           class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96 lg:mt-0 mt-10"
-          src="/assets/images/Placeholder.png"
+          src="https://images.pexels.com/photos/7722866/pexels-photo-7722866.jpeg?auto=compress&cs=tinysrgb&w=800"
           alt="about-image"
         />
       </div>

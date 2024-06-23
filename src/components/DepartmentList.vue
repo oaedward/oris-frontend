@@ -3,7 +3,9 @@
     <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-2">
       <div
         class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
-        style="background-image: url('/assets/images/Placeholder.png')"
+        style="
+          background-image: url('https://images.pexels.com/photos/5561913/pexels-photo-5561913.jpeg?auto=compress&cs=tinysrgb&w=800');
+        "
       >
         <RouterLink :to="{ name: 'consult' }">
           <div
@@ -20,7 +22,9 @@
 
       <div
         class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
-        style="background-image: url('/assets/images/Placeholder.png')"
+        style="
+          background-image: url('https://images.pexels.com/photos/3862631/pexels-photo-3862631.jpeg?auto=compress&cs=tinysrgb&w=800');
+        "
       >
         <RouterLink :to="{ name: 'engineering' }">
           <div

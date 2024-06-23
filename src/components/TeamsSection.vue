@@ -6,17 +6,17 @@
         <TeamsCard
           name="Oris Express"
           portfolio="CEO - Oris Express"
-          image="/assets/images/Placeholder.png"
+          image="https://images.pexels.com/photos/7794435/pexels-photo-7794435.jpeg?auto=compress&cs=tinysrgb&w=800"
         />
         <TeamsCard
           name="Oris Express"
           portfolio="Manager - Oris Consult"
-          image="/assets/images/Placeholder.png"
+          image="https://images.pexels.com/photos/7794435/pexels-photo-7794435.jpeg?auto=compress&cs=tinysrgb&w=800"
         />
         <TeamsCard
           name="Oris Express"
           portfolio="Manager - Oris Engineering"
-          image="/assets/images/Placeholder.png"
+          image="https://images.pexels.com/photos/7794435/pexels-photo-7794435.jpeg?auto=compress&cs=tinysrgb&w=800"
         />
       </div>
     </div>

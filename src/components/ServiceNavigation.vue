@@ -6,7 +6,7 @@
       <div>
         <RouterLink :to="{ name: 'services' }" class="flex gap-2 items-center">
           <ApplicationLogo class="block h-9 w-auto fill-current text-gradark:text-gray-200" />
-          <span class="font-bold">{{ name }}</span>
+          <span class="font-bold text-xs md:text-lg">{{ name }}</span>
         </RouterLink>
       </div>
       <NavigationMenu class="lg:block">
@@ -17,13 +17,13 @@
             >
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <RouterLink :to="{ name: 'consult' }" :class="navigationMenuTriggerStyle()"
-              >Oris Consult</RouterLink
+            <RouterLink :to="{ name: 'consult' }" :class="navigationMenuTriggerStyle()">
+              Consult</RouterLink
             >
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <RouterLink :to="{ name: 'engineering' }" :class="navigationMenuTriggerStyle()"
-              >Oris Engieering</RouterLink
+            <RouterLink :to="{ name: 'engineering' }" :class="navigationMenuTriggerStyle()">
+              Engieering</RouterLink
             >
           </NavigationMenuItem>
         </NavigationMenuList>
