@@ -5,8 +5,25 @@
         title="Our Services"
         subTitle="Explore the comprehensive services Oris Express has to offer"
       />
+      <div class="grid grid-cols-1 gap-6 pt-10 md:grid-cols-2 md:gap-2 md:pt-5 lg:grid-cols-3">
+        <ServicesCard3
+          title="Performance Monitoring & Evaluation Services (Operations and Finance)"
+          description="We also offer reliable handyman services, addressing various maintenance and repair needs with precision and professionalism. Our skilled technicians are equipped to handle a wide range of tasks, ensuring your property remains in excellent condition."
+          link="consult"
+        />
+        <ServicesCard3
+          title="Performance Monitoring & Evaluation Services (Operations and Finance)"
+          description="We also offer reliable handyman services, addressing various maintenance and repair needs with precision and professionalism. Our skilled technicians are equipped to handle a wide range of tasks, ensuring your property remains in excellent condition."
+          link="consult"
+        />
+        <ServicesCard3
+          title="Performance Monitoring & Evaluation Services (Operations and Finance)"
+          description="We also offer reliable handyman services, addressing various maintenance and repair needs with precision and professionalism. Our skilled technicians are equipped to handle a wide range of tasks, ensuring your property remains in excellent condition."
+          link="consult"
+        />
+      </div>
 
-      <div
+      <!-- <div
         class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:grid-cols-3 md:gap-2 md:pt-12 lg:grid-cols-4"
       >
         <ServiceCard
@@ -45,6 +62,18 @@
           icon="material-symbols-light:engineering-outline-sharp"
           link="engineering"
         />
+      </div> -->
+      <div class="p-6 pt-10 flex justify-between">
+        <div></div>
+        <RouterLink to="#">
+          <button
+            class="select-none rounded-lg bg-pink-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+            data-ripple-light="true"
+          >
+            Explore More
+          </button>
+        </RouterLink>
       </div>
     </div>
   </section>
@@ -53,6 +82,8 @@
 <script setup lang="ts">
 import SectionHeader from '@/components/SectionHeader.vue'
 import ServiceCard from '@/components/ServiceCard.vue'
+import ServicesCard3 from './ServicesCard3.vue'
+import { RouterLink } from 'vue-router'
 </script>
 
 <style scoped></style>

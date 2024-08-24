@@ -1,35 +1,29 @@
 <template>
-  <ServiceCard
-    title="Management Training"
+  <ServicesCard3
+    title="Performance Monitoring & Evaluation Services (Operations and Finance)"
     description="We also offer reliable handyman services, addressing various maintenance and repair needs with precision and professionalism. Our skilled technicians are equipped to handle a wide range of tasks, ensuring your property remains in excellent condition."
-    category="Oris Business Development"
-    image="https://images.pexels.com/photos/5561913/pexels-photo-5561913.jpeg?auto=compress&cs=tinysrgb&w=800"
-    alt="Oris Education Image"
-    icon="material-symbols-light:engineering-outline-sharp"
     link="consult"
   />
-  <ServiceCard
-    title="Performance Monitoring & Evaluation Assessment"
+  <ServicesCard3
+    title="PME online/in-person consultation"
     description="We also offer reliable handyman services, addressing various maintenance and repair needs with precision and professionalism. Our skilled technicians are equipped to handle a wide range of tasks, ensuring your property remains in excellent condition."
-    category="Oris Business Development"
-    image="https://images.pexels.com/photos/5561913/pexels-photo-5561913.jpeg?auto=compress&cs=tinysrgb&w=800"
-    alt="Oris Education Image"
-    icon="material-symbols-light:engineering-outline-sharp"
     link="consult"
   />
-  <ServiceCard
+  <ServicesCard3
+    title="Internal PME Training and Assessments"
+    description="We also offer reliable handyman services, addressing various maintenance and repair needs with precision and professionalism. Our skilled technicians are equipped to handle a wide range of tasks, ensuring your property remains in excellent condition."
+    link="consult"
+  />
+  <ServicesCard3
     title="Strategic Development"
     description="We also offer reliable handyman services, addressing various maintenance and repair needs with precision and professionalism. Our skilled technicians are equipped to handle a wide range of tasks, ensuring your property remains in excellent condition."
-    category="Oris Business Development"
-    image="https://images.pexels.com/photos/5561913/pexels-photo-5561913.jpeg?auto=compress&cs=tinysrgb&w=800"
-    alt="Oris Education Image"
-    icon="material-symbols-light:engineering-outline-sharp"
     link="consult"
   />
 </template>
 
 <script setup lang="ts">
 import ServiceCard from '@/components/ServiceCard.vue'
+import ServicesCard3 from './ServicesCard3.vue'
 </script>
 
 <style lang="scss" scoped></style>

@@ -6,6 +6,7 @@ import AboutSummary from '@/components/AboutSummary.vue'
 import ServiceSection from '@/components/ServiceSection.vue'
 import WhyChooseUs from '@/components/WhyChooseUs.vue'
 import ContactSection from '@/components/ContactSection.vue'
+import PartnerSection from '@/components/PartnerSection.vue'
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import ContactSection from '@/components/ContactSection.vue'
       <AboutSummary id="about" />
       <DepartmentSection id="department" />
       <ServiceSection id="services" />
+      <PartnerSection id="partners" />
       <WhyChooseUs />
       <ContactSection id="contact" />
     </div>

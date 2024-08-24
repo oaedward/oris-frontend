@@ -21,8 +21,8 @@ import {
 </script>
 
 <template>
-  <div class="">
-    <NavigationMenu class="hidden lg:block">
+  <div>
+    <!-- <NavigationMenu class="flex items-center justify-between p-6 lg:px-8">
       <NavigationMenuList>
         <NavigationMenuItem>
           <RouterLink :to="{ name: 'home' }" :class="navigationMenuTriggerStyle()">Home</RouterLink>
@@ -43,7 +43,22 @@ import {
           >
         </NavigationMenuItem>
       </NavigationMenuList>
-    </NavigationMenu>
+    </NavigationMenu> -->
+
+    <div class="hidden lg:flex lg:gap-x-12 p-6 lg:px-8">
+      <RouterLink :to="{ name: 'home' }" class="text-sm font-light leading-6 text-gray-900"
+        >Home</RouterLink
+      >
+      <RouterLink :to="{ name: 'about' }" class="text-sm font-light leading-6 text-gray-900"
+        >About</RouterLink
+      >
+      <RouterLink :to="{ name: 'services' }" class="text-sm font-light leading-6 text-gray-900"
+        >Services</RouterLink
+      >
+      <RouterLink :to="{ name: 'contact' }" class="text-sm font-light leading-6 text-gray-900"
+        >Contact</RouterLink
+      >
+    </div>
 
     <Sheet>
       <SheetTrigger class="block lg:hidden">

@@ -12,24 +12,18 @@
           <TabsTrigger value="obd"> Oris Business Development </TabsTrigger>
         </TabsList>
         <TabsContent value="all">
-          <div
-            class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:grid-cols-3 md:gap-2 md:pt-5 lg:grid-cols-4"
-          >
+          <div class="grid grid-cols-1 gap-6 pt-10 md:grid-cols-2 md:gap-2 md:pt-5 lg:grid-cols-3">
             <EducationServices />
             <BusinessDevelopmentServices />
           </div>
         </TabsContent>
         <TabsContent value="education">
-          <div
-            class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:grid-cols-3 md:gap-2 md:pt-5 lg:grid-cols-4"
-          >
+          <div class="grid grid-cols-1 gap-6 pt-10 md:grid-cols-2 md:gap-2 md:pt-5 lg:grid-cols-3">
             <EducationServices />
           </div>
         </TabsContent>
         <TabsContent value="obd">
-          <div
-            class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:grid-cols-3 md:gap-2 md:pt-5 lg:grid-cols-4"
-          >
+          <div class="grid grid-cols-1 gap-6 pt-10 md:grid-cols-2 md:gap-2 md:pt-5 lg:grid-cols-3">
             <BusinessDevelopmentServices />
           </div>
         </TabsContent>
