@@ -13,7 +13,7 @@
         </TabsList>
         <TabsContent value="all">
           <div
-            class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:grid-cols-3 md:gap-2 md:pt-5 lg:grid-cols-4"
+            class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:grid-cols-3 md:gap-2 md:pt-5 lg:grid-cols-3"
           >
             <BiomedicalServices />
             <HandymanServices />
@@ -21,14 +21,14 @@
         </TabsContent>
         <TabsContent value="engineering">
           <div
-            class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:grid-cols-3 md:gap-2 md:pt-5 lg:grid-cols-4"
+            class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:grid-cols-3 md:gap-2 md:pt-5 lg:grid-cols-3"
           >
             <BiomedicalServices />
           </div>
         </TabsContent>
         <TabsContent value="handyman">
           <div
-            class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:grid-cols-3 md:gap-2 md:pt-5 lg:grid-cols-4"
+            class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:grid-cols-3 md:gap-2 md:pt-5 lg:grid-cols-3"
           >
             <HandymanServices />
           </div>

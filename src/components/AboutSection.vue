@@ -123,7 +123,7 @@
           </div> -->
           <SectionHeader
             title="Meet Oris Express"
-            subTitle="Your Ideal Butler"
+            subTitle="Our Goal is to be Your Ideal Butler"
             class="text-left"
             classSub="text-left "
           />
@@ -143,8 +143,8 @@
       >
         <div class="lg:pr-4">
           <div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-            <p>At ORIS EXPRESS, our goal is to be your ideal butler</p>
-            <ul role="list" class="mt-8 space-y-8 text-gray-600">
+            <!-- <p>At ORIS EXPRESS, our goal is to be your ideal butler</p> -->
+            <ul role="list" class="mt-0 space-y-8 text-gray-600">
               <li class="flex gap-x-3">
                 <svg
                   class="mt-1 h-5 w-5 flex-none text-indigo-600"

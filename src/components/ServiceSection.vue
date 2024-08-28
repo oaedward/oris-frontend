@@ -12,13 +12,13 @@
           link="consult"
         />
         <ServicesCard3
-          title="Performance Monitoring & Evaluation Services (Operations and Finance)"
-          description="We also offer reliable handyman services, addressing various maintenance and repair needs with precision and professionalism. Our skilled technicians are equipped to handle a wide range of tasks, ensuring your property remains in excellent condition."
+          title="Medical Equipment Sales"
+          description="Our engineering division excels in biomedical engineering, where we combine innovation and technical expertise to develop advanced medical devices and solutions. Our goal is to improve patient care and healthcare outcomes through cutting-edge technology and engineering prowess."
           link="consult"
         />
         <ServicesCard3
-          title="Performance Monitoring & Evaluation Services (Operations and Finance)"
-          description="We also offer reliable handyman services, addressing various maintenance and repair needs with precision and professionalism. Our skilled technicians are equipped to handle a wide range of tasks, ensuring your property remains in excellent condition."
+          title="Oris Business Development"
+          description="Our consultancy services extend to helping businesses grow and thrive. We provide strategic insights, market analysis, and practical solutions to enhance business performance and achieve sustainable growth. Whether you are a startup or an established enterprise, we have the expertise to take your business to the next level."
           link="consult"
         />
       </div>
@@ -65,14 +65,8 @@
       </div> -->
       <div class="p-6 pt-10 flex justify-between">
         <div></div>
-        <RouterLink to="#">
-          <button
-            class="select-none rounded-lg bg-pink-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-            type="button"
-            data-ripple-light="true"
-          >
-            Explore More
-          </button>
+        <RouterLink to="/services">
+          <Button class="" type="button" variant="outline"> Explore More </Button>
         </RouterLink>
       </div>
     </div>
@@ -84,6 +78,7 @@ import SectionHeader from '@/components/SectionHeader.vue'
 import ServiceCard from '@/components/ServiceCard.vue'
 import ServicesCard3 from './ServicesCard3.vue'
 import { RouterLink } from 'vue-router'
+import Button from './ui/button/Button.vue'
 </script>
 
 <style scoped></style>

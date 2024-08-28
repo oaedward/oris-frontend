@@ -1,7 +1,7 @@
 <template>
   <MainLayout>
     <PageHeader title="Our Departments" />
-    <ServiceNavigation />
+    <ServiceNavigation image="/src/assets/images/ORIS FINAL LOGOs-04.png" />
 
     <section class="dark:bg-gray-900">
       <!-- <SectionHeader

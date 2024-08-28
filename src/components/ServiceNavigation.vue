@@ -5,7 +5,8 @@
     >
       <div>
         <RouterLink :to="{ name: 'services' }" class="flex gap-2 items-center">
-          <ApplicationLogo class="block h-9 w-auto fill-current text-gradark:text-gray-200" />
+          <!-- <ApplicationLogo class="block h-9 w-auto fill-current text-gradark:text-gray-200" /> -->
+          <img class="block h-20 w-20 fill-current" :src="image" alt="Oris Express" />
           <span class="font-bold text-xs md:text-lg">{{ name }}</span>
         </RouterLink>
       </div>
@@ -45,6 +46,7 @@ import {
 
 defineProps<{
   name?: string
+  image?: string
 }>()
 </script>
 

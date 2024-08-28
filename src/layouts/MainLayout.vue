@@ -26,8 +26,13 @@ import AppNavigation from '@/components/AppNavigation.vue'
       <nav class="container flex items-center justify-between p-2" aria-label="Global">
         <div class="flex lg:flex-1">
           <RouterLink :to="{ name: 'home' }">
-            <ApplicationLogo
+            <!-- <ApplicationLogo
               class="block h-9 w-auto fill-current text-gray-800 dark:text-gray-200"
+            /> -->
+            <img
+              class="block h-24 w-24 fill-current"
+              src="/src/assets/images/ORIS FINAL LOGOs-04.svg"
+              alt="Oris Express"
             />
           </RouterLink>
         </div>

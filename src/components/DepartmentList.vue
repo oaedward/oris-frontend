@@ -45,27 +45,28 @@
     <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-2">
       <div class="flex items-center justify-center">
         <div
-          class="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+          class="relative flex w-full max-w-[48rem] flex-row rounded-xl backdrop-blur-xl bg-blue-950 bg-clip-border text-gray-700 shadow-md"
         >
           <div
-            class="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700"
+            class="relative m-0 w-2/5 shrink-0 overflow-hidden bg-white rounded-xl rounded-r-none bg-clip-border text-gray-700"
           >
             <img
-              src="https://images.pexels.com/photos/5561913/pexels-photo-5561913.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/src/assets/images/ORIS FINAL LOGOs-06.svg"
               alt="image"
               class="h-full w-full object-cover"
             />
+            <div class="bg-blue-900"></div>
           </div>
           <div class="p-6">
             <h6
-              class="mb-4 block font-sans text-base font-semibold leading-relaxed tracking-normal text-pink-500 antialiased"
+              class="mb-4 block font-sans text-base font-bold leading-relaxed tracking-normal text-white antialiased"
             >
               Oris Consult
             </h6>
             <h4
-              class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
+              class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-white antialiased"
             >
-              Lyft launching cross-platform service this week
+              Expert business solutions tailored to help your business thrive
             </h4>
             <!-- <p
               class="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased"
@@ -76,7 +77,7 @@
             </p> -->
             <RouterLink :to="{ name: 'consult' }" class="inline-block">
               <button
-                class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white transition-all hover:bg-white/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 type="button"
               >
                 Learn More
@@ -102,27 +103,27 @@
       </div>
       <div class="flex items-center justify-center">
         <div
-          class="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+          class="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-green-900 bg-clip-border text-gray-700 shadow-md"
         >
           <div
             class="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700"
           >
             <img
-              src="https://images.pexels.com/photos/3862631/pexels-photo-3862631.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/src/assets/images/ORIS FINAL LOGOs-05.svg"
               alt="image"
               class="h-full w-full object-cover"
             />
           </div>
           <div class="p-6">
             <h6
-              class="mb-4 block font-sans text-base font-semibold leading-relaxed tracking-normal text-gray-800 antialiased"
+              class="mb-4 block font-sans text-base font-semibold leading-relaxed tracking-normal text-white antialiased"
             >
               Oris Engineering
             </h6>
             <h4
-              class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
+              class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-white antialiased"
             >
-              Lyft launching cross-platform service this week
+              Top-notch technical services met with precision and expertise
             </h4>
             <!-- <p
               class="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased"
@@ -133,7 +134,7 @@
             </p> -->
             <RouterLink :to="{ name: 'engineering' }" class="inline-block">
               <button
-                class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white transition-all hover:bg-white/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 type="button"
               >
                 Learn More

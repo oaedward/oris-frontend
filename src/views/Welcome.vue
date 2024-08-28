@@ -7,6 +7,7 @@ import ServiceSection from '@/components/ServiceSection.vue'
 import WhyChooseUs from '@/components/WhyChooseUs.vue'
 import ContactSection from '@/components/ContactSection.vue'
 import PartnerSection from '@/components/PartnerSection.vue'
+import CTA from '@/components/CTA.vue'
 </script>
 
 <template>
@@ -16,8 +17,9 @@ import PartnerSection from '@/components/PartnerSection.vue'
       <AboutSummary id="about" />
       <DepartmentSection id="department" />
       <ServiceSection id="services" />
-      <PartnerSection id="partners" />
       <WhyChooseUs />
+      <CTA />
+      <PartnerSection id="partners" />
       <ContactSection id="contact" />
     </div>
   </MainLayout>

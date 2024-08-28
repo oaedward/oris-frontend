@@ -1,42 +1,4 @@
 <template>
-  <!-- <section class="bg-white dark:bg-gray-900">
-    <div class="container px-6 py-10 mx-auto">
-      <div class="mt-8 lg:-mx-6 lg:flex align-top">
-        <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
-          <SectionHeader
-            title="Meet Oris Express"
-            subTitle="Your Ideal Butler"
-            class="text-center lg:text-left"
-            classSub="text-center lg:text-left"
-          />
-
-          <p class="mt-3 mb-3 text-md text-gray-500 dark:text-gray-300 md:text-lg">
-            ORIS EXPRESS exists to be anyone’s butler. With a focus on Education, Business, Home,
-            and Office Engineering, we believe that we come in handy for every situation (at least,
-            that is the goal!)
-          </p>
-          <span class="mt-10 font-bold text-sm">Biomedical Engnineering</span>
-          <p class="mt-3 text-md text-gray-500 dark:text-gray-300 md:text-lg">
-            Health is important and ORIS Biomedical is here to help improve the quality of health
-            for healthcare facilities. Our experienced engineers and sales representatives are fully
-            trained to assist you with all your medical device/equipment acquisition, installation,
-            support, and maintenance needs.
-          </p>
-          <RouterLink
-            :to="{ name: 'about' }"
-            class="inline-block mt-2 text-primary underline hover:text-gray-900"
-            >Read more</RouterLink
-          >
-        </div>
-
-        <img
-          class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96 lg:mt-0 mt-10"
-          src="https://images.pexels.com/photos/7722866/pexels-photo-7722866.jpeg?auto=compress&cs=tinysrgb&w=800"
-          alt="about-image"
-        />
-      </div>
-    </div>
-  </section> -->
   <div
     class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0"
   >
@@ -80,9 +42,9 @@
         <div class="lg:pr-4">
           <SectionHeader
             title="Meet Oris Express"
-            subTitle="Your Ideal Butler"
-            class="text-left"
-            classSub="text-left "
+            subTitle="Our Goal is to be Your Ideal Butler"
+            class="text-left md:text-left"
+            classSub="text-center md:text-left"
           />
         </div>
       </div>
@@ -109,7 +71,7 @@
             <ul role="list" class="mt-8 space-y-8 text-gray-600">
               <li class="flex gap-x-3">
                 <svg
-                  class="mt-1 h-5 w-5 flex-none text-indigo-600"
+                  class="mt-1 h-5 w-5 flex-none text-primary"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                   aria-hidden="true"
@@ -134,8 +96,8 @@
 
             <div class="flex items-center mt-6">
               <RouterLink :to="{ name: 'about' }" class="inline-block">
-                <button
-                  class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                <Button
+                  class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-primary transition-all duration-500 hover:bg-primary/10"
                   type="button"
                 >
                   Learn More
@@ -154,7 +116,7 @@
                       d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                     ></path>
                   </svg>
-                </button>
+                </Button>
               </RouterLink>
             </div>
           </div>
